@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">FashionX</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about-us">About Us</a>
+                <a href="#products">Products</a>
+                <a href="#collections">Collections</a>
+                <a href="#blog">Blog</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <!-- Search bar -->
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search products..." id="searchInput">
+                <button class="search-button" onclick="searchProduct()">Search</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover The Latest Fashion Trends</h1>
+            <p>Find stylish clothing and accessories at unbeatable prices!</p>
+            <a href="#products" class="cta-button">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="section" id="about-us">
+        <h2>About Us</h2>
+        <p>FashionX is your ultimate fashion destination, offering a wide range of clothing, accessories, and footwear to suit every style. We are committed to providing high-quality products and a seamless shopping experience.</p>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="section" id="products">
+        <h2>Featured Products</h2>
+        <div class="product-cards">
+            <div class="product-card">
+                <img src="./images/Hombres Camiseta con estampado de dibujos animados y letra.jpeg" alt="Product 1">
+                <h3>Trendy Shirt</h3>
+                <p>Stylish shirt perfect for every occasion.</p>
+                <span>$29.99</span>
+            </div>
+            <div class="product-card">
+                <img src=".//images/TS A-Line Mermaid Mother of the Bride Dress Elegant Party V Neck Floor Length Ankle Length Chiffon 3_4 Length Sleeve Half Sleeve with Sash _ Ribbon Ruched Cascading Ruffles 2024 2024 - $164_99.jpeg" alt="Product 2">
+                <h3>Elegant Dress</h3>
+                <p>A beautiful dress for a night out.</p>
+                <span>$49.99</span>
+            </div>
+            <div class="product-card">
+                <img src="./images/Abercrombie & Fitch _ Authentic American clothing since 1892.jpeg" alt="Product 3">
+                <h3>Leather Jacket</h3>
+                <p>Classy and stylish leather jacket for all seasons.</p>
+                <span>$89.99</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Arrivals Section -->
+    <section class="section" id="new-arrivals">
+        <h2>New Arrivals</h2>
+        <div class="new-arrival-cards">
+            <div class="new-arrival-card">
+                <img src="./images/MFW_ KITON Spring Summer 2023 Womenswear Collection.jpeg" alt="New Product 1">
+                <h3>Summer Collection</h3>
+                <p>Fresh styles for the warm weather.</p>
+            </div>
+            <div class="new-arrival-card">
+                <img src="./images/PFW_ Kristina Fidelskaya Fall Winter 2021 Runway Collection.jpeg" alt="New Product 2">
+                <h3>Winter Collection</h3>
+                <p>Stay cozy with our latest winter collection.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fashion Blog Section -->
+    <section class="section" id="blog">
+        <h2>Fashion Blog</h2>
+        <div class="blog-posts">
+            <div class="blog-post">
+                <img src="./images/12 Different Ways To Style Mom Jeans _ Hustle and Hearts.jpeg" alt="Blog 1">
+                <h3>How to Style Your Jeans</h3>
+                <p>Learn the art of styling your jeans with these simple tips!</p>
+            </div>
+            <div class="blog-post">
+                <img src="./images/Tips How To Dress If You Are An Inverted Triangle or Apple Shape ✨.jpeg" alt="Blog 2">
+                <h3>Top 5 Fashion Trends This Season</h3>
+                <p>Find out what's hot in the fashion world right now.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collections Section -->
+    <section class="section" id="collections">
+        <h2>Our Collections</h2>
+        <div class="collections">
+            <div class="collection-card">
+                <img src="./images/59 of the Best Street Style Outfits at Paris Fashion Week.jpeg" alt="Collection 1">
+                <h3>Street Style</h3>
+            </div>
+            <div class="collection-card">
+                <img src="./images/Elegant Floral Maxi Dress - Black _ XL.jpeg" alt="Collection 2">
+                <h3>Evening Wear</h3>
+            </div>
+            <div class="collection-card">
+                <img src="./images/60 Year Old Woman Casual Fashion.jpeg" alt="Collection 3">
+                <h3>Casual Wear</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="section" id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="4" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 FashionX. All rights reserved.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
